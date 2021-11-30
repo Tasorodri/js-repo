@@ -3,7 +3,7 @@ body{
     text-align: center;
 }
 p{
-    
+
 }
 h1{
     text-align:center;
@@ -49,6 +49,10 @@ input[type = text]{
 input[value= '/'],[value= '*'],[value= '-'],
 [value= '+'],[value= '->']{
     background-color: rgb(109, 94, 248);
+}
+label{
+    visibility: hidden;
+    color: white;
 }
 
 #pila{
