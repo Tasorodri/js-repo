@@ -11,7 +11,7 @@ h2 {/* especificidad: 001 */
 }
 h3 {/* especificidad: 001 */
   font:  1.3em Georgia, serif;
-  color: crimson;
+  color: rgb(161, 18, 46);
   text-transform: uppercase;
 }
 h4 {/* especificidad: 001 */
