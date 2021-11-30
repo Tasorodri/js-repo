@@ -20,18 +20,19 @@
     
     <section>        
         <h3>Tarea 2, modificar elementos html</h3>
-        <p id="cabeceraNombre">Nombre del alumno: </p>
-        <input type="text" id="campoNombre" value="Taso Rodriguez Meana"  aria-label="campoNombre">
-        <button id="botonName" onclick="qhandler.writeName()">confirmar</button>
-        <button id="botonSex" onclick="qhandler.alternateGender()">Cambio alumno/alumna</button>
+        <label for="campoNombre">Nombre del alumno: </label>
+        <input type="text" id="campoNombre" value="Taso Rodriguez Meana"  >
+        <button  onclick="qhandler.writeName()">confirmar</button>
+        <button onclick="qhandler.alternateGender()">Cambio alumno/alumna</button>
     </section>
 
     <section>
         <h3>Tarea 3-4, añadir y eliminar elementos html</h3>
         <p>
-            <input type="text" id="textAdd" value="Nuevo Parrafo" aria-label="textAdd">
-            <button id="add" onclick="qhandler.after(qhandler.getValue('textAdd'))" >Añadir párrafos</button>            
-            <button id="remove" onclick="qhandler.remove('added')" >Eliminar párrafos</button>
+            <label for="textAdd">introduce nue parrafo: </label>
+            <input type="text" id="textAdd" value="Nuevo Parrafo" >
+            <button onclick="qhandler.after(qhandler.getValue('textAdd'))" >Añadir párrafos</button>            
+            <button  onclick="qhandler.remove('added')" >Eliminar párrafos</button>
             
         </p>
         <div id="addZone">
@@ -41,7 +42,7 @@
 
     <section>
         <h3>Tarea 5 recorreer arbol dom</h3>
-        <button id="recorrer" onclick="qhandler.recorrerHtml()" >recorrer</button>
+        <button  onclick="qhandler.recorrerHtml()" >recorrer</button>
         <div id = "arbol">
 
         </div>
