@@ -50,21 +50,14 @@ class jqueryHandler {
         $("#arbol").append(text);
     }
 
-    addRow(){
-        var Nombre = $("#INombre").val();
-        var Duracion = $("#IDura").val();
-        
-        var Genero = $("#IGen").val();
-        
-        var Valoracion = $("#IVal").val();
-
-        $("#tablaPel").after("<tr class = \"fila\"><td>" + Nombre + "</td><td>" + Duracion + "</td><td>" + Genero + "</td><td>" +Valoracion+"</td></tr>");
+    sumar(){
+        var sum = 0; 
+        $("table td").each( function(){
+            sum += Number.parseInt($(this).text());
+        });
+        $("#suma").text("La suma de las filas y columnas es: " + sum);
     }
 
-    removeRow(){
-        $("tr.fila").filter(":last").remove();
-    }
-      
     
 }
 

@@ -49,26 +49,19 @@
 
     <section>
         <h3>Tarea 6, sumar filas y columnas de la tabla</h3>
-        <p id="TNombre2">Nombre del alumno: </p>
-        <p id="TNombre">Nombre: <input type="text" id="INombre" value="Tarzan" aria-label="INombre"></p>
-        <p id="TDura">Duracion: <input type="text" id="IDura" value="1:45" aria-label="IDura"></p>
-        <p id="TGen">Genero: <input type="text" id="IGen" value="Dibujos Animados" aria-label="IGen"></p>
-        <p id="TVal">Valoracion :<input type="text" id="IVal" value="8.2" aria-label="IVal"></p>
-        <p>
-            <button id="addT" onclick="qhandler.addRow()" >Añadir filas</button>
-            <button id="addR" onclick="qhandler.removeRow()" >Eliminar filas</button>
-        </p>
-        <table>
-            <tbody id = "tablaPel">
-                <tr>
-                <th>Nombre</th><th>Duracion</th><th>Genero</th><th>Valoracion</th>
-                </tr>
-                <tr class = "fila">
-                    <td>Interstellar</td><td>2:12</td><td>Ciencia Ficcion</td><td>9.8</td>
-                </tr>
+        <input type="button" value="Sumar filas y columnas" onclick="qhandler.sumar();" />
+        <table id="tabla"> 
+            <thead>
+                <tr> <th>Col 1</th>           <th>Col 2</th>   <th>Col 3</th> </tr>
+            </thead>
+            <tbody>
+                <tr><td>8</td><td>2</td><td>3</td></tr>
+                <tr><td>4</td><td>3</td><td>7</td></tr>
+                <tr><td>2</td><td>8</td><td>5</td></tr>
             </tbody>
         </table>
         
+        <p id = "suma"></p>
     </section>
     
     
