@@ -11,8 +11,13 @@
 
 </head>
 <body>
-    <h1>SEW Ejercicio-05: Calculadora RPN</h1>   
-  
+    <h1>SEW Ejercicio-06: Calculadora Unidades</h1>   
+    <p>
+        Contiene las funcionalidades básicas de una calculadoraRPN.
+        Para hacer el calculo de unidades, introducir el numero en la pila, despues la unidad de origen y luego la unidad de salida.
+        El tipo de unidades se puede cambiar desde los botones de la primera fila, no hay comprobaciones de unidades de diferente magnitud.
+
+    </p>
 
     <div class ="content">
     
@@ -20,7 +25,8 @@
     
     <div  class = "columna" >
         <div id="pila"></div>
-        <input type="text"  id="pantalla" disabled  aria-label="pantalla">
+        <label for="pantalla">Pantalla numerica</label>
+        <input type="text"  id="pantalla" disabled >
         <p>
             <input type="button"  value="long" onclick="cal.long()">
             <input type="button"  value="masa" onclick="cal.masa()">
@@ -67,13 +73,5 @@
     </div>
 
 
-    </div>
-    <script>
-    </script>
-        
-    
-
-    <footer>
-    </footer>
 
 </body></html>

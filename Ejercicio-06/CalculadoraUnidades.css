@@ -1,6 +1,7 @@
 body{
     background-color:rgb(218, 208, 163);
     color:black;
+    text-align: center;
 }
 h1{
     text-align:center;
@@ -45,4 +46,12 @@ input[type = text]{
     margin: 1.25em;
     overflow-y: scroll;
     border-radius: 0;
+ }
+ p{
+    font-family: Tahoma,sans-serif;
+    font-size: 1.2em;
+}
+ label{
+    visibility: hidden;
+    color: white;
  }
