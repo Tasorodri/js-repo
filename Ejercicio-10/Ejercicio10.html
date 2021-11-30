@@ -12,13 +12,13 @@
 
     <section>
         <h3> Consultar precio de electricidad</h3>
-        <p> Devuelve el precio a cada hora(consulta diaria) o el precio de todos los dias del mes hasta el seleccionado (consulta mensual)</p>
-        <input type="date"  name="trip-start"
+        <p> Devuelve el precio a cada horapara el dia seleccionado</p>
+        <label for="date">Selecciona el dia: </label>
+        <input type="date" id="date" name="trip-start"
             value="2021-11-28"
             min="2018-01-01" >
         <p>
-            <input type="button"  value = "Consulta diaria" onclick="buscador.cargarPreciosHora()">
-            <input type="button"  value = "Consulta mensual" onclick="buscador.cargarPreciosMes()">
+            <input type="button"  value = "Consulta Precios" onclick="buscador.cargarPreciosHora()">
 
         </p>
     </section>

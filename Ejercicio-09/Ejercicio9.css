@@ -1,6 +1,7 @@
 body{
     background-color:white;
     color:black;
+    text-align: center;
 }
 h1{
     text-align:center;
@@ -22,14 +23,4 @@ button{
 
 p{
     font-size: 1.2em;
-}
-.calculadora{
-    padding: 1em;
-    align-items: center;
-    background-color: burlywood;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    border-bottom-right-radius: 10%;
-    border-bottom-left-radius: 10%;
-
 }
