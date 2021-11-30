@@ -1,0 +1,318 @@
+{"type": "FeatureCollection",
+    "features": [
+        {
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.84376,43.3503
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Taso"
+            }
+        },
+        {
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.364652,43.34782
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Maria Isabel"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.342582,43.406235
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: America"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.342582,43.3613
+                    ]
+                ]
+            }, "properties":{
+                "name":"defuncion: America"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.342292,43.406235
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Corina"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.342292,43.34771
+                    ]
+                ]
+            }, "properties":{
+                "name":"Defuncion: Corina"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.420458,43.274487
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Javier"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.420458,43.41955
+                    ]
+                ]
+            }, "properties":{
+                "name":"defuncion: Javier"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.420468,43.27445
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Manuel"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.420468,43.3603
+                    ]
+                ]
+            }, "properties":{
+                "name":"Defuncion: Manuel"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.66193,43.5454
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Maria"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.66193,43.5453
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Pablo"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.66193,43.679928
+                    ]
+                ]
+            }, "properties":{
+                "name":"Defuncion: Pablo"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -6.06253,43.4489
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Ramiro"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -6.06253,43.3703
+                    ]
+                ]
+            }, "properties":{
+                "name":"Defuncion: Ramiro"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -6.59082,42.5462
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Lola"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.73328,41.5153
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Isabel"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.73328,42.5362
+                    ]
+                ]
+            }, "properties":{
+                "name":"defuncion: Isabel"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.74628,41.5032
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Eustaquio"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -5.74628,41.6133
+                    ]
+                ]
+            }, "properties":{
+                "name":"defuncion: Eustaquio"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -6.06393,42.4569
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Prudencio"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -6.06393,42.60103
+                    ]
+                ]
+            }, "properties":{
+                "name":"defuncion: Prudencio"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -6.06353,42.4588
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Jacinta"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -6.06353,42.60001
+                    ]
+                ]
+            }, "properties":{
+                "name":"Defuncion: Jacinta"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -6.06343,42.4579
+                    ]
+                ]
+            }, "properties":{
+                "name":"Nacimiento: Hermenejildo"
+            }
+        },{
+            "type":"Feature",
+            "geometry": {
+                "type":"Point",
+                "coordinates": [
+                    [
+                        -6.06343,42.4599
+                    ]
+                ]
+            }, "properties":{
+                "name":"Defuncion: Hermenejildo"
+            }
+        }
+    ]
+}

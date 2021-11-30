@@ -1,0 +1,27 @@
+h1 {  /* especificidad: 001 */
+      font: 2em Georgia, serif;
+      color: #000000;
+      text-transform: uppercase;
+      text-align: center;   
+  }
+h2 {/* especificidad: 001 */
+    font:  1.5em Georgia, serif;
+    color: #000000;
+    text-transform: uppercase;
+}
+h3 {/* especificidad: 001 */
+  font:  1.3em Georgia, serif;
+  color: #ff0000;
+  text-transform: uppercase;
+}
+h4 {/* especificidad: 001 */
+  font:  1.3em Georgia, serif;
+  color: #4400ff;
+}
+p {/* especificidad: 001 */
+  font:  1em arial, "sans-serif";
+  color: #000000;
+}
+body{
+  background-color: aliceblue;
+}

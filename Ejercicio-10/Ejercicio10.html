@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ejercicio-10</title>
+<script src="./Ejercicio10.js"></script>  
+<link rel="stylesheet" href="./Ejercicio10.css"> 
+<script src="./jquery.min.js.descarga"></script>
+
+</head>
+<body>
+    <h1>SEW Ejercicio-10: Aplicación precio de electricidad</h1>   
+
+
+    <section>
+        <h3> Consultar precio de electricidad</h3>
+        <p> Devuelve el precio a cada hora(consulta diaria) o el precio de todos los dias del mes hasta el seleccionado (consulta mensual)</p>
+        <input type="date"  name="trip-start"
+            value="2021-11-28"
+            min="2018-01-01" >
+        <p>
+            <input type="button"  value = "Consulta diaria" onclick="buscador.cargarPreciosHora()">
+            <input type="button"  value = "Consulta mensual" onclick="buscador.cargarPreciosMes()">
+
+        </p>
+    </section>
+
+    
+    <div id = 'content'>
+    
+
+    </div>
+    
+
+    <footer>
+    </footer>
+
+</body>
+</html>

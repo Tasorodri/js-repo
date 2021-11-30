@@ -1,0 +1,22 @@
+body{
+    background-color:white;
+    color:black;
+}
+h1{
+    text-align:center;
+    color:green;
+    font-size: 5em;
+}
+h2{
+    text-align:center;
+    color:blue;
+    font-size: 4em;
+}
+button{
+    color:black;
+    min-width: 100px;
+}
+
+p{
+    font-size: 1.2em;
+}

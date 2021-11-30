@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+<name>nacimiento: Taso</name>
+<description>
+Lugar de nacimiento:  Oviedo </description>
+<Point>
+ <coordinates>-5.84376,43.3503,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Maria Isabel</name>
+<description>
+Lugar de nacimiento:  Infiesto </description>
+<Point>
+ <coordinates>-5.364652,43.34782,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: America</name>
+<description>
+Lugar de nacimiento:  Anayo </description>
+<Point>
+ <coordinates>-5.342582,43.406235,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>defuncion: America</name>
+<description>
+Lugar de defuncion:  Oviedo </description>
+<Point>
+ <coordinates>-5.342582,43.3613,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Corina</name>
+<description>
+Lugar de nacimiento:  Anayo </description>
+<Point>
+ <coordinates>-5.342292,43.406235,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>defuncion: Corina</name>
+<description>
+Lugar de defuncion:  Llanes </description>
+<Point>
+ <coordinates>-5.342292,43.34771,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Javier</name>
+<description>
+Lugar de nacimiento:  La Marea </description>
+<Point>
+ <coordinates>-5.420458,43.274487,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>defuncion: Javier</name>
+<description>
+Lugar de defuncion:  Santolaya </description>
+<Point>
+ <coordinates>-5.420458,43.41955,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Manuel</name>
+<description>
+Lugar de nacimiento:  La marea </description>
+<Point>
+ <coordinates>-5.420468,43.27445,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>defuncion: Manuel</name>
+<description>
+Lugar de defuncion:  Oviedo </description>
+<Point>
+ <coordinates>-5.420468,43.3603,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Maria</name>
+<description>
+Lugar de nacimiento:  Gijon </description>
+<Point>
+ <coordinates>-5.66193,43.5454,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>defuncion: Maria</name>
+<description>
+Lugar de defuncion:  Gijon </description>
+<Point>
+ <coordinates>-5.66193,43.5453,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Pablo</name>
+<description>
+Lugar de nacimiento:  Gijon </description>
+<Point>
+ <coordinates>-5.66193,43.5451,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>defuncion: Pablo</name>
+<description>
+Lugar de defuncion:  Mar cantabrico </description>
+<Point>
+ <coordinates>-5.66193,43.679928,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Ramiro</name>
+<description>
+Lugar de nacimiento:  Astorga </description>
+<Point>
+ <coordinates>-6.06253,43.4489,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>defuncion: Ramiro</name>
+<description>
+Lugar de defuncion:  Oviedo </description>
+<Point>
+ <coordinates>-6.06253,43.3703,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Lola</name>
+<description>
+Lugar de nacimiento:  Ponferrada </description>
+<Point>
+ <coordinates>-6.59082,42.5462,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Isabel</name>
+<description>
+Lugar de nacimiento:  Zamora </description>
+<Point>
+ <coordinates>-5.73328,41.5153,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>defuncion: Isabel</name>
+<description>
+Lugar de defuncion:  Villadangos </description>
+<Point>
+ <coordinates>-5.73328,42.5362,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Eustaquio</name>
+<description>
+Lugar de nacimiento:  zamora </description>
+<Point>
+ <coordinates>-5.74628,41.5032,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>defuncion: Eustaquio</name>
+<description>
+Lugar de defuncion:  zamora </description>
+<Point>
+ <coordinates>-5.74628,41.6133,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Prudencio</name>
+<description>
+Lugar de nacimiento:  Astorga </description>
+<Point>
+ <coordinates>-6.06393,42.4569,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>defuncion: Prudencio</name>
+<description>
+Lugar de defuncion:  Leon </description>
+<Point>
+ <coordinates>-6.06393,42.60103,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Jacinta</name>
+<description>
+Lugar de nacimiento:  Astorga </description>
+<Point>
+ <coordinates>-6.06353,42.4588,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>defuncion: Jacinta</name>
+<description>
+Lugar de defuncion:  Leon </description>
+<Point>
+ <coordinates>-6.06353,42.60001,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>nacimiento: Hermenejildo</name>
+<description>
+Lugar de nacimiento:  Astorga </description>
+<Point>
+ <coordinates>-6.06343,42.4579,0</coordinates>
+ </Point></Placemark>
+<Placemark>
+<name>defuncion: Hermenejildo</name>
+<description>
+Lugar de defuncion:  Astorga </description>
+<Point>
+ <coordinates>-6.06343,42.4599,0</coordinates>
+ </Point></Placemark>
+
+</Document>
+</kml>

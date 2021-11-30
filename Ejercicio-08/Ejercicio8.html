@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ejercicio-08</title>
+<script src="./Ejercicio8.js"></script>  
+<link rel="stylesheet" href="./Ejercicio8.css"> 
+<meta name="author" content="Taso Rodriguez Meana" />
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<script src="./jquery.min.js.descarga"></script>
+
+</head>
+<body>
+    <h1>SEW Ejercicio-08: Consumo de servicios meteorologicos</h1>   
+    <h2>Taso Rodriguez Meana UO251434</h2>  
+    <div>
+        <select name="Ciudad" id="city">
+            <option value="Leon">Leon</option>
+            <option value="Gijon">Gijon</option>
+            <option value="Oviedo">Oviedo</option>
+            <option value="Zamora">Zamora</option>
+            <option value="Astorga">Astorga</option>
+        </select>
+        <input type="button"  id="btnLong" value = "Consultar datos" onclick="meteoH.generate(city.value)">
+    </div>
+    
+    <div id = "content">
+
+    </div>
+    
+
+    <footer>
+    </footer>
+
+</body></html>

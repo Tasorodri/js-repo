@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Calculadora RPM</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="Taso Rodriguez Meana" />
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>CalculadoraRPN</title>
+<script src="./CalculadoraRPN.js"></script>  
+<link rel="stylesheet" href="./CalculadoraRPN.css"> 
+
+</head>
+<body>
+    <h1>SEW Ejercicio-05: Calculadora RPN</h1>   
+  
+
+    <div class ="content">
+    
+    
+    
+    <div  class = "columna" >
+        <div id="pila"></div>
+        <input type="text"  id="pantalla" disabled  aria-label="pantalla">
+        <p>
+            <input type="button" value="x^y" onclick="cal.pot()">
+            <input type="button"  value="sin" onclick="cal.sin()">
+            <input type="button"  value="cos" onclick="cal.cos()">
+            <input type="button"  value="tan" onclick="cal.tan()">
+        </p>
+        <p>
+            <input type="button" value="x^2" onclick="cal.cuad()">
+            <input type="button" value="sqrt"  onclick="cal.sqrt()">
+            <input type="button" value="+/-"  onclick="cal.opu()">
+            <input type="button" value="-1"  onclick="cal.inv()">
+        </p>
+        <p>
+            <input type="button" value="CE"   onclick="cal.reset()">
+            <input type="button" value="log"      onclick="cal.log()">
+            <input type="button" value="exp"      onclick="cal.exp()">
+            <input type="button" value="/"      onclick="cal.div()">
+        </p>
+        <p>
+            <input type="button" value="7" onclick="cal.escribe('7')">
+            <input type="button" value="8" onclick="cal.escribe('8')">
+            <input type="button" value="9" onclick="cal.escribe('9')">
+            <input type="button" value="x" onclick="cal.mult()">
+        </p>
+        <p>
+            <input type="button" value="4"  onclick="cal.escribe('4')">
+            <input type="button" value="5"  onclick="cal.escribe('5')">
+            <input type="button" value="6"  onclick="cal.escribe('6')">
+            <input type="button" value="-"  onclick="cal.menos()">
+        </p>
+        <p>
+            <input type="button" value="1" onclick="cal.escribe('1')">
+            <input type="button" value="2" onclick="cal.escribe('2')">
+            <input type="button" value="3" onclick="cal.escribe('3')">
+            <input type="button" value="+" onclick="cal.mas()">
+        </p>
+        <p>
+            <input type="button" value="C" onclick="cal.resetAll()">
+            <input type="button" value="0" onclick="cal.escribe('0')">
+            <input type="button" value="." onclick="cal.escribe('.')">            
+            <input type="button" value="->" onclick="cal.enter()">
+        </p>
+       
+    </div>
+
+
+    </div>
+    <script>
+    </script>
+        
+    
+
+    <footer>
+    </footer>
+
+</body></html>

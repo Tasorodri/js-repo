@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ejercicio-14</title>
+<link rel="stylesheet" href="./Ejercicio14.css"> 
+<script src="./jquery.min.js.descarga"></script>
+
+<script src="./Ejercicio14.js"></script> 
+
+
+</head>
+<body>
+    <h1>SEW Ejercicio-14: Aplicacion Juego Ajedrez</h1>   
+    <h2>Taso Rodriguez Meana UO251434</h2>  
+
+    <p>
+        <input type="button"  id="btnsave" value = "Guardar Partida" onclick="chess.saveData()">
+        <input type="button"  id="btnLoad" value = "Cargar Partida" onclick="chess.loadSave()">
+
+    </p>
+
+    
+    <div id = "content">
+
+        <div id = tablaro>
+            <p>
+                <input type="button"  id="btnReini" value = "Iniciar Partida" onclick="chess.loadBoard()">  
+                <input type="button"  id="btnFull" value = "Jugar en pantalla completa" onclick="chess.fullScreen()">  
+
+            </p>
+            <div id = "juego">
+    
+            </div>
+        </div>
+     
+
+            
+        </div>
+        
+    </div>
+    
+    
+
+</body>
+</html>

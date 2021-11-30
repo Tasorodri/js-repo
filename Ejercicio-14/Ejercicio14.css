@@ -1,0 +1,92 @@
+body{
+    background-color:white;
+    color:black;
+    text-align:center;
+}
+h1{
+    color:green;
+    font-size: 3.2em;
+}
+h2{
+    text-align:center;
+    color:blue;
+    font-size: 2.6em;
+}
+h3{
+    font-size: 1.6em;
+}
+
+p{
+    font-size: 1.6em;
+}
+input{
+    min-width: 80px;
+    min-height: 40px;
+    font-size: 1.2em;
+}
+.saveButtons  {
+    padding: 1.2em 0.5em 1.2em 1em;
+    margin-bottom: 0.4em;
+    text-decoration: none ;
+    font-size: 1.3em;
+    color: #725325;
+    background: #eee;
+    display: block;
+  }
+
+
+
+p{
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 5em;;
+    row-gap: 5em;
+    padding : 1em;
+}
+
+table tr td {
+    width: 70px;
+    height: 70px;
+    border: solid #BBBBBB 1px;
+    background-color: bisque;
+    text-align: center;
+}
+  
+table tr:nth-child(odd) td:nth-child(even) {
+    background:#725325;
+}
+
+table tr:nth-child(even) td:nth-child(odd) {
+    background:#725325;
+}
+#tablero{
+    text-align: center;
+    padding-left: 2em ;
+}
+
+#tablero:-webkit-full-screen {
+    margin-left: 5em;
+    border-left: 100px;
+}
+
+  
+  #wrapper {
+    bottom: 70%;
+    right: 10%;
+    position: absolute;
+  }
+  
+  #container {
+    background: #FFF;
+    left: 50%;
+    padding: 10px;
+    top: 50%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: 1px solid rgb(128, 128, 128);
+    height: 100%;
+    position: relative;
+  }

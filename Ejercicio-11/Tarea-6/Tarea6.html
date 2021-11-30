@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ejercicio-11</title>
+<meta name="author" content="Taso Rodriguez Meana" />
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<script src="./Tarea6.js"></script>  
+<link rel="stylesheet" href="./Tarea6.css"> 
+<script src="./jquery.min.js.descarga"></script>
+
+</head>
+<body>
+    <h1>SEW Ejercicio-11: Manejo de API google maps con otra API(fullscreen)</h1>   
+    <h2>Taso Rodriguez Meana UO251434</h2>  
+    <P>
+        pulsa el botón para poner el mapa en pantalla completa, esc para salir
+    </P>
+
+
+        <input type="button"   value = "Pantalla Completa" onclick="mapa.fullScreen()">
+        <P>
+            introduce las coordenadas del marcador que quieres añadir al mapa
+        </P>
+        <p>Latitud:
+            <input type="text" title="Latitud" name="Latitud" id ="latitud"/>
+        </p>
+        <p>Altitud:
+            <input type="text" title="Altitud" name="Altitud" id ="altitud"/>
+        </p>
+        <input type="button" value="Añadir marcador" onClick = "mapa.marcador();"/>
+
+
+
+
+    <div id = "mapa">
+
+    </div>
+    
+
+    <footer>
+        
+        
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=mapa.initialize"></script>  
+    </footer>
+
+</body>
+</html>

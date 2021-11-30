@@ -1,0 +1,2 @@
+Mi versión de windows no tenia la misma calculadora, asi que intente replicar la interfaz lo mejor posible, en cuanto a las teclas que cambian con la flecha, implemente las que me pareció que tenian sentido(las trigonometircas, potencia de 2, logaritmo y PI/E), pues no podia probarlo.
+En cuanto al uso de id, lo use tanto para la pantalla como para seleccionar que botones cambiarían, me parecio el modo mas elegnate de hacerlo, pues el value cambiaba.

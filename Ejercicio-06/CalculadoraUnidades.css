@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(218, 208, 163);
+    color:black;
+}
+h1{
+    text-align:center;
+    font-size: 5em;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  #272121; 
+    margin: auto;
+    align-items: center;
+    border-radius: 2em;
+    width: 120%;
+    max-width: 30em;
+
+}
+input[ type = button]{
+    min-width: 3.2em;
+    min-height: 1.9em;
+    font-size: 2em;
+    border-radius: 0.5em;
+}
+
+input[type = text]{
+    width: 23.25em;
+    height: 3em;
+    font-family: Tahoma,sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: 0.2em solid black;
+    background-color: lightgray;
+ }
+
+
+#pila{
+    width: 23.25em;
+    height: 7em;
+    font-family: Tahoma,sans-serif;
+    font-size: 1.1em;
+    background-color: lightgray;
+    margin: 1.25em;
+    overflow-y: scroll;
+    border-radius: 0;
+ }
