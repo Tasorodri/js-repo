@@ -31,17 +31,27 @@ input[type = text]{
     font-size: 1.1em;
     border: 0.2em solid black;
     background-color: lightgray;
+    border-radius: 0em;
  }
 
 
-input[type = button]{
+input{
    width: 4em;
    height: 4em;
    font-family: Tahoma,sans-serif;
    font-weight: bold;
    font-size: 1.1em;
    border: 0.2em solid black;
+   background-color: rgb(207, 204, 204);
    border-radius: 0.75em;
+}
+
+input[value="/"],[value="*"],[value="-"],[value="+"]{
+    background-color: crimson;
+}
+
+input[value="mrc"],[value="m+"],[value="m-"]{
+    background-color: darkgray;
 }
 
 p{

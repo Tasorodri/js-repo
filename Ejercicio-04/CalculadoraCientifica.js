@@ -63,9 +63,8 @@ class CalculadoraBasica {
     */
     operation(symbol){        
         this.pantalla += symbol
-        var numero = Number(this.numberBuffer)
-        if(numero != 0)
-            this.calculatorBuffer += numero;
+        if(this.numberBuffer != '')
+            this.calculatorBuffer += Number(this.numberBuffer);
         this.calculatorBuffer += symbol;
         this.numberBuffer = "";
         this.actualizar();
@@ -175,16 +174,18 @@ class CalculadoraBasica {
     */
     igual(){
         var lastNumber = Number(this.numberBuffer);
-        if(lastNumber != 0){
+        if(this.numberBuffer != ''){
             this.calculatorBuffer += lastNumber
-        }        
+        }  
+        console.log(this.calculatorBuffer) 
+        console.log(this.pantalla)       
         this.numberBuffer = ""
         try{ //Se prueba a realizar la operación 
-            console.log(this.calculatorBuffer)
             this.pantalla = "" + eval(this.calculatorBuffer);
             this.calculatorBuffer = "" + this.pantalla;
-            console.log(this.calculatorBuffer)
-            this.actualizar();   
+            this.actualizar();  
+            console.log(this.calculatorBuffer) 
+            console.log(this.pantalla) 
         }catch(error){ //Si error de sintaxis 
             document.getElementById("screen").value = "Error de sintáxis";
             this.pantalla = ""; 

@@ -63,7 +63,8 @@ class CalculadoraBasica {
     */
     operation(symbol){        
         this.pantalla += symbol
-        this.calculatorBuffer += Number(this.numberBuffer);
+        if(this.numberBuffer != '')
+            this.calculatorBuffer += Number(this.numberBuffer);
         this.calculatorBuffer += symbol;
         this.numberBuffer = "";
         this.actualizar();
@@ -165,19 +166,23 @@ class CalculadoraBasica {
     }
 
     /*
-    * Hacemos el calculo, tenemos que meter el ultimo numero en el buffer como Number
+    * Hacemos el calculo, tenemos que meter el ultimo numero en el buffer (si hay) como Number
     * 
     */
     igual(){
         var lastNumber = Number(this.numberBuffer);
-        if(lastNumber != 0){
+        if(this.numberBuffer != ''){
             this.calculatorBuffer += lastNumber
-        }        
+        }  
+        console.log(this.calculatorBuffer) 
+        console.log(this.pantalla)       
         this.numberBuffer = ""
         try{ //Se prueba a realizar la operación 
             this.pantalla = "" + eval(this.calculatorBuffer);
             this.calculatorBuffer = "" + this.pantalla;
-            this.actualizar();   
+            this.actualizar();  
+            console.log(this.calculatorBuffer) 
+            console.log(this.pantalla) 
         }catch(error){ //Si error de sintaxis 
             document.getElementById("screen").value = "Error de sintáxis";
             this.pantalla = ""; 

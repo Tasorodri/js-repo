@@ -1,24 +1,25 @@
 body{
-    background-color: #EEB449; 
+    background-color: rgb(163, 151, 95); 
     text-align: center;
+}
 }
 
 h1{
-    font-family:Verdana,sans-serif;
+    font-family:Tahoma,sans-serif;
     font-weight: bold;
     font-size: 3.75em;
 }
 
 div{
+    border-radius: 1em;
+    background-color:  #362E2E; 
+    margin: auto;
+    max-width: 32em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-grow: initial;
     align-items: center;
-    border-radius: 1em;
-    background-color:  #362E2E; 
-    margin: auto;
-    max-width: 32em;
 }
 
 input[type = text]{
