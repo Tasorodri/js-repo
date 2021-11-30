@@ -23,16 +23,6 @@ button{
 p{
     font-size: 1.2em;
 }
-.calculadora{
-    padding: 1em;
-    align-items: center;
-    background-color: burlywood;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    border-bottom-right-radius: 10%;
-    border-bottom-left-radius: 10%;
-
-}
 
 #mapa {
     height: 100%;
@@ -40,4 +30,4 @@ p{
     padding: 0px;
     width: 800px; 
     height: 500px;
-    }
+}
