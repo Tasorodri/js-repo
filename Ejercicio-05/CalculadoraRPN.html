@@ -12,13 +12,12 @@
 </head>
 <body>
     <h1>SEW Ejercicio-05: Calculadora RPN</h1>   
-  
+    <p>pulsa la tecla "->" para añadir a la pila, las operaciones se hacen sobre los numero de la pila,
+        el botón "-1" calcula el inverso
+    </p>
+    
 
-    <div class ="content">
-    
-    
-    
-    <div  class = "columna" >
+    <div >
         <div id="pila"></div>
         <input type="text"  id="pantalla" disabled  aria-label="pantalla">
         <p>
@@ -43,7 +42,7 @@
             <input type="button" value="7" onclick="cal.escribe('7')">
             <input type="button" value="8" onclick="cal.escribe('8')">
             <input type="button" value="9" onclick="cal.escribe('9')">
-            <input type="button" value="x" onclick="cal.mult()">
+            <input type="button" value="*" onclick="cal.mult()">
         </p>
         <p>
             <input type="button" value="4"  onclick="cal.escribe('4')">

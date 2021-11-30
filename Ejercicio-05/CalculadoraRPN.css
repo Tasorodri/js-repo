@@ -1,6 +1,9 @@
 body{
     background-color:rgb(218, 208, 163);
-    color:black;
+    text-align: center;
+}
+p{
+    
 }
 h1{
     text-align:center;
@@ -35,6 +38,18 @@ input[type = text]{
     background-color: lightgray;
  }
 
+ input[value= '1'],[value= '2'],[value= '3'],
+[value= '4'],[value= '5'],[value= '6'],
+[value= '7'],[value= '8'],[value= '9'],
+[value= '0'],[value= '.']{
+    background-color: rgb(248, 94, 124);
+}
+
+
+input[value= '/'],[value= '*'],[value= '-'],
+[value= '+'],[value= '->']{
+    background-color: rgb(109, 94, 248);
+}
 
 #pila{
     width: 23.25em;
