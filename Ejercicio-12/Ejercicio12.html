@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Ejercicio-11</title>
+<meta name="author" content="Taso Rodriguez Meana" />
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
 <script src="./Ejercicio12.js"></script>  
+<script src="./jquery.min.js"></script>  
 <link rel="stylesheet" href="./Ejercicio12.css"> 
 
 
@@ -10,24 +13,19 @@
     <h1>SEW Ejercicio-12: Manejo de API FILE de HTML5</h1>   
 
     <section>
-        <p><input id="subirArchivos" type="file" name="Archivos" onchange="loader.precessFile();" multiple="" aria-label="file"></p>
-        <p>Archivos seleccionados: <span id="numero">0</span></p>
-        <p>Tamaño total: <span id="tamaño">0 bytes</span></p>
-        <span id="nombres"></span>
+        
+        <p><label for="subirArchivos">Elige el archivo que analizar</label>
+            <input id="subirArchivos" type="file" name="Archivos" onchange="loader.precessFile(this.files);" multiple="" aria-label="file"></p>
     </section>
 
+    <main>
 
-    <p id="nombreArchivo"></p>
-    <p id="tamañoArchivo"></p>
-    <p id="tipoArchivo"></p>
-    <p id="ultimaModificacion"></p>
-    <p id="contenidoArchivo"></p>
-    <p id="areaTexto"></p>
-    <p id="errorLectura"></p>
+    </main>
+    <div id="areaTexto">
+
+    </div>
 
 
-    <footer>
-    </footer>
 
 </body>
 </html>
