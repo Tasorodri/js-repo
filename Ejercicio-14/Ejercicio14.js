@@ -95,12 +95,12 @@ class Chess {
     saveData(){
         var save = $("#juego").html();
         localStorage.setItem("partida",save);
-        alert(localStorage.getItem("partida"))
+        alert("Partida Guardada usando API Web Storage")
     }
     loadSave(){
         $("#juego").empty();
-        alert(localStorage.getItem("partida"));
         $("#juego").append(localStorage.getItem("partida"));
+        alert("Partida Cargada usando API Web Storage")
     }
 
     fullScreen(){

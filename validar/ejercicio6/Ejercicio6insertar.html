@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://localhost/entrega/Ejercicio-6/Ejercicio6.php# -->
+<html lang="es" dir="ltr"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ejercicio 6</title>
+
+<meta name="author" content="Taso Rodríguez Meana">
+<meta name="desciption" content="Control de una base de datos mysql con php"> 
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./Ejercicio6insertar_files/Ejercicio6.css">
+</head>
+<body>
+<h1>Ejercicio 6 </h1> 
+<p>Control de una base de datos mysql con php</p>
+<h2>Definicion de la base de datos</h2>
+    <p> La base de datos tiene una sola tabla llamada 'PruebasUsabilidad', y sus registros son: </p>
+    <ul> 
+        <li> 'DNI','nombre','apellidos','email', 'telefono', 'sexo','tarea realizada','comentarios' y 'propuestas' son campos de tipo texto </li>
+        <li> 'edad','Nivel o pericia informática','tiempo','valoracion de la aplicacion' son campos de tipo entero (numerico) </li>
+        <li> 'edad','Nivel o pericia informática','tiempo','valoracion de la aplicacion' son campos de tipo entero (numerico) </li>
+        <li> El campo 'sexo' puede tomar los valores 'MUJER' u 'HOMBRE', el campo 'tarea realizada' toma  'COMPLETADA' o 'NO COMPLETADA' </li>
+
+    </ul>
+  
+<form action="http://localhost/entrega/Ejercicio-6/Ejercicio6.php#" method="post" name="menu">
+<nav>
+    <ul>
+        <li><input type="submit" class="button" value="Crear Base de Datos" name="crearBD"> </li>
+        <li><input type="submit" class="button" value="Crear una tabla" name="crearTabla"> </li>
+        <li><input type="submit" class="button" value="Insertar datos en una tabla" name="insertar"> </li>
+        <li><input type="submit" class="button" value="Buscar datos en una tabla" name="buscar"> </li>
+        <li><input type="submit" class="button" value="Modificar datos en una tabla" name="modificar"> </li>
+        <li><input type="submit" class="button" value="Eliminar datos de una tabla" name="eliminar"> </li>
+        <li><input type="submit" class="button" value="Generar informe" name="informe"> </li>
+        <li><input type="submit" class="button" value="Cargar datos desde un archivo CSV en una tabla de la Base de Datos" name="cargar"> </li>
+        <li><input type="submit" class="button" value="Exportar datos a un archivo CSV desde una tabla de la Base de Datos" name="exportar"> </li>
+    </ul>
+</nav>
+</form><form action="http://localhost/entrega/Ejercicio-6/Ejercicio6.php#" method="post" name="formulario"><p>DNI: <input type="text" name="dni" title="DNI"> </p><p>Nombre: <input type="text" name="nombre" title="nombre"> </p><p>Apellidos: <input type="text" name="apellidos" title="apellidos"> </p><p>Email: <input type="text" name="email" title="email"> </p><p>Teléfono: <input type="text" name="telefono" title="telefono"> </p><p>Edad: <input type="text" name="edad" title="edad"> </p><p><label for="sexo">Sexo:</label>
+                        <select name="sexo" id="sexo">
+                            <option value="MUJER">MUJER</option>
+                            <option value="HOMBRE">HOMBRE</option>
+                        </select></p><p>Nivel o pericia informática (de 0 a 10): <input type="text" name="nivel" title="nivel"> </p><p>Tiempo de realizacion de la tarea en segundos: <input type="text" name="tiempo" title="tiempo"> </p><p><label for="realizada">Estado de realización de la tarea:</label>
+                        <select name="realizada" id="realizada">
+                            <option value="REALIZADA">REALIZADA</option>
+                            <option value="NO REALIZADA">NO REALIZADA</option>
+                        </select></p><p>Comentarios: <input type="text" name="comentarios" title="comentarios"> </p><p>Propuestas: <input type="text" name="propuestas" title="propuestas"> </p><p>Valoracion de la aplicacion por parte del usuario (de 0 a 10): <input type="text" name="valoracion" title="valoracion"> </p><p><input type="submit" class="button" value="Insertar Datos" name="opInsertar">  </p></form>
+</body></html>

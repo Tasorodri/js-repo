@@ -1,7 +1,8 @@
 body{
-    background-color:white;
+    background-color:lightsteelblue;
     color:black;
     text-align:center;
+    margin: auto;
 }
 h1{
     color:green;
@@ -15,43 +16,34 @@ h2{
 h3{
     font-size: 1.6em;
 }
-
-p{
-    font-size: 1.6em;
-}
 input{
-    min-width: 80px;
-    min-height: 40px;
+    min-width: 7em;
+    min-height: 1em;
     font-size: 1.2em;
 }
-.saveButtons  {
-    padding: 1.2em 0.5em 1.2em 1em;
-    margin-bottom: 0.4em;
-    text-decoration: none ;
-    font-size: 1.3em;
-    color: #725325;
-    background: #eee;
-    display: block;
-  }
-
-
 
 p{
     margin:auto;
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    column-gap: 5em;;
-    row-gap: 5em;
     padding : 1em;
+    font-size: 1.4em;
+
+}
+
+div{
+    width: 37em;
+    margin: auto;
 }
 
 table tr td {
-    width: 70px;
-    height: 70px;
-    border: solid #BBBBBB 1px;
+    width: 4.375em;
+    height: 4.375em;
+    border: solid #BBBBBB 0.12m;
     background-color: bisque;
     text-align: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
   
 table tr:nth-child(odd) td:nth-child(even) {
@@ -61,32 +53,3 @@ table tr:nth-child(odd) td:nth-child(even) {
 table tr:nth-child(even) td:nth-child(odd) {
     background:#725325;
 }
-#tablero{
-    text-align: center;
-    padding-left: 2em ;
-}
-
-#tablero:-webkit-full-screen {
-    margin-left: 5em;
-    border-left: 100px;
-}
-
-  
-  #wrapper {
-    bottom: 70%;
-    right: 10%;
-    position: absolute;
-  }
-  
-  #container {
-    background: #FFF;
-    left: 50%;
-    padding: 10px;
-    top: 50%;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    border: 1px solid rgb(128, 128, 128);
-    height: 100%;
-    position: relative;
-  }

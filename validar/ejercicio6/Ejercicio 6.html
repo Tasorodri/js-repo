@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://localhost/entrega/Ejercicio-6/Ejercicio6.php# -->
+<html lang="es" dir="ltr"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ejercicio 6</title>
+
+<meta name="author" content="Taso Rodríguez Meana">
+<meta name="desciption" content="Control de una base de datos mysql con php"> 
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./Ejercicio6_files/Ejercicio6.css">
+</head>
+<body>
+<h1>Ejercicio 6 </h1> 
+<p>Control de una base de datos mysql con php</p>
+<h2>Definicion de la base de datos</h2>
+    <p> La base de datos tiene una sola tabla llamada 'PruebasUsabilidad', y sus registros son: </p>
+    <ul> 
+        <li> 'DNI','nombre','apellidos','email', 'telefono', 'sexo','tarea realizada','comentarios' y 'propuestas' son campos de tipo texto </li>
+        <li> 'edad','Nivel o pericia informática','tiempo','valoracion de la aplicacion' son campos de tipo entero (numerico) </li>
+        <li> 'edad','Nivel o pericia informática','tiempo','valoracion de la aplicacion' son campos de tipo entero (numerico) </li>
+        <li> El campo 'sexo' puede tomar los valores 'MUJER' u 'HOMBRE', el campo 'tarea realizada' toma  'COMPLETADA' o 'NO COMPLETADA' </li>
+
+    </ul>
+  
+<form action="http://localhost/entrega/Ejercicio-6/Ejercicio6.php#" method="post" name="menu">
+<nav>
+    <ul>
+        <li><input type="submit" class="button" value="Crear Base de Datos" name="crearBD"> </li>
+        <li><input type="submit" class="button" value="Crear una tabla" name="crearTabla"> </li>
+        <li><input type="submit" class="button" value="Insertar datos en una tabla" name="insertar"> </li>
+        <li><input type="submit" class="button" value="Buscar datos en una tabla" name="buscar"> </li>
+        <li><input type="submit" class="button" value="Modificar datos en una tabla" name="modificar"> </li>
+        <li><input type="submit" class="button" value="Eliminar datos de una tabla" name="eliminar"> </li>
+        <li><input type="submit" class="button" value="Generar informe" name="informe"> </li>
+        <li><input type="submit" class="button" value="Cargar datos desde un archivo CSV en una tabla de la Base de Datos" name="cargar"> </li>
+        <li><input type="submit" class="button" value="Exportar datos a un archivo CSV desde una tabla de la Base de Datos" name="exportar"> </li>
+    </ul>
+</nav>
+</form><p>Las filas de la tabla 'PruebasUsabilidad' que coinciden con la búsqueda son:</p><table> <tbody><tr> <th> dni </th> <th> nombre </th> <th> apellidos </th> <th> email </th> <th> telefono </th> 
+         <th> edad </th> <th> sexo </th> <th> nivel </th> <th> tiempo </th> <th> realizada </th> <th> comentarios </th> 
+         <th> propuestas </th> <th> valoracion </th>  </tr><tr> <td>3</td> <td>Ana</td> <td>Perez</td> <td>correo3</td> <td>633333333</td> <td>52</td> <td>MUJER</td> <td>4</td> <td>73</td> <td>COMPLETADA</td> <td>C3</td> <td>P3</td> <td>4 </td> </tr><tr> <td>4</td> <td>Ana</td> <td>Fernandez</td> <td>correo4</td> <td>644444444</td> <td>12</td> <td>MUJER</td> <td>5</td> <td>112</td> <td>NO COMPLETADA</td> <td>C4</td> <td>P4</td> <td>5 </td> </tr></tbody></table>
+</body></html>

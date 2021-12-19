@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://localhost/entrega/Ejercicio-7/Ejercicio7.php# -->
+<html lang="es" dir="ltr"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ejercicio 7</title>
+
+<meta name="author" content="Taso Rodríguez Meana">
+<meta name="desciption" content="Control de una base de datos mysql con php"> 
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./Ejercicio7info_files/Ejercicio7.css">
+</head>
+<body>
+<h1>Ejercicio 7: Aplicación de gestion de biblioteca  </h1> 
+    <p> La aplicación simula una aplicación de gestion de biblioteca que usuaria un bibliotecario que quiere mantener el registro de los libros y prestamos de una biblioteca  </p>
+
+  
+<form action="http://localhost/entrega/Ejercicio-7/Ejercicio7.php#" method="post" name="menu">
+<nav>
+    <ul>
+        <li><input type="submit" class="button" value="Información" name="informacion"> </li>
+        <li><input type="submit" class="button" value="Crear Base de Datos" name="crearBD"> </li>
+        <li><input type="submit" class="button" value="Reiniciar Base de Datos" name="restart"> </li>
+        <li><input type="submit" class="button" value="Mostrar Usuarios" name="mostrarUsuarios"> </li>
+        <li><input type="submit" class="button" value="Mostrar Libros y Prestamos" name="mostrarLibros"> </li>
+        <li><input type="submit" class="button" value="Realizar Prestamo" name="prestamo"> </li>  
+        <li><input type="submit" class="button" value="Devolver Libro" name="devolver"> </li>      
+        <li><input type="submit" class="button" value="Buscar libros" name="buscar"> </li>
+    </ul>
+</nav>
+</form><p> Hay 4 tablas, Libro, Autor, Prestamo y usuario  </p>            <p> Para insertar datos ahora mismo solo se puede a traves del boton Reiniciar Base de Datos, que reinicia y añade los datos que se encuentran en los ficheros csv, para añadir datos nuevos habría que modificar estos ficheros </p>
+            <p> Pueden hacerse prestamos de libros, para ellos se ha de seleccionar un libro y un usuario, el libro seleccionado no puede estar ya prestado, y tanto el libro como el usuario introducido tiene que existir (se introducen por id) esto añadira una nueva entrada en la base de datos Pretamo en la que figurará el libro y el usuario que lo ha tomado prestado</p>
+            <p> Se puede devolver un libro, para ello simplemente se selecciona el id del libro a devolver </p>
+            <p> El botón mostrar libros y prestamos muestra una lista de todos los libros en la BD, asi como los usuarios que los han tomado prestados</p>
+            <p> Se puede hacer búsqueda de libros, buscando por nombre autor o genero, la busqueda se puede realizar tanto por texto completo como parcial, no distingue mayusculas y minusculas</p>
+            <p> Un Libro solo puede ser prestado por un usuario a la vez, para simplificar supondremos que solo tenemos un ejemplar de cada libro, un usuario puede tomar prestados tantos libros como quiera </p>
+            
+</body></html>

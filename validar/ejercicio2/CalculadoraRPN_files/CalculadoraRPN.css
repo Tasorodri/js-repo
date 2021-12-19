@@ -5,7 +5,6 @@ body{
 
 p{
     font-family: Tahoma,sans-serif;
-    text-align: left;
 }
 h1{
     text-align:center;
@@ -23,7 +22,7 @@ div {
     max-width: 30em;
 
 }
-input[ type = button]{
+input[ type = 'submit']{
     min-width: 3.2em;
     min-height: 1.9em;
     font-size: 2em;

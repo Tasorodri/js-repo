@@ -11,9 +11,18 @@
 </head>
 <body>
     <h1>SEW Ejercicio-05: Calculadora RPN</h1>   
-    <p>pulsa la tecla "->" para añadir a la pila, las operaciones se hacen sobre los numero de la pila,
-        el botón "-1" calcula el inverso
-    </p>
+    </h2>INSTRUCCIONES</h2>  
+    <p>Esta es una calculadora RPN, funciona diferente a una calculadora normal, en la pantalla de abajo se va introduciendo un numero, una vez hayamos terminado de escribir el numero pulsamos la tecla "->"</p>
+    <p>la tecla "->" añade ese numero a la pantalla de arriba, donde se pueden ir almacenando varios numeros  </p>
+    <p>las operaciones se hacen sobre los numeros que estan arriba (empezando por los de mas abajo) para hacer una operacion,   </p>
+    <p>primero se introducen los numeros de la operacion, y luego se pulsa el boton de la operacion (+ por ejemplo) y ejecuta esa operacion sobre los numeros de arriba, y muestra el resultado tambien arriba  </p>
+    <p>El boton C elimina todos los numeros de arriba y de abajo</p>
+    <p>Ejemplo operaciones: para hacer una resta, introduce el primer numero y pulsa ->, luego introduce el segundo numero y pulsa ->, 
+        apareceran en la pantalla de arriba ambos numeros ordenados, luego pulsa el boton - y se realizara la resta del primer numero menos el segundo
+        Si quisieras hacer una operación que solo usa un valor, solo hay que introducir el numero, pulsar -> y luego pulsar el boton de la operacion. 5-3 seria: 5 "->" 3 "->" "-" </p>
+        <p>Para hacer operaciones con parentesis, primero hacemos una operacion de un parentesis, de modo que se quede el resultado en la pantalla de arriba, luego hacemos con normalidad la siguiente operacion entre parentesis, 
+            cuando este terminada, tendremos los resultados en la pantalla de arriba, ahora hacemos la operación entre los parentesis y obtenemos el resultado
+        </p>
     
 
     <div >
@@ -28,7 +37,7 @@
         </p>
         <p>
             <input type="button" value="x^2" onclick="cal.cuad()">
-            <input type="button" value="sqrt"  onclick="cal.sqrt()">
+            <input type="button" value="&#8730;"  onclick="cal.sqrt()">
             <input type="button" value="+/-"  onclick="cal.opu()">
             <input type="button" value="-1"  onclick="cal.inv()">
         </p>

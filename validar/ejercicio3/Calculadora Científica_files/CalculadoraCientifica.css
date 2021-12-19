@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(163, 151, 95); 
+    text-align: center;
+}
+
+h1 {  
+    font: 2em Georgia, serif;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;   
+}
+
+
+input[type = text]{
+    width: 23.3em;
+    height: 3em;
+    font-family: Tahoma,sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: 0.2em solid black;
+    background-color: lightgray;
+    text-align: end;
+ }
+
+
+input{
+   width: 4.5em;
+   height: 3em;
+   font-family: Tahoma,sans-serif;
+   font-weight: bold;
+   font-size: 1.1em;
+   border: 0.1em solid black;
+   border-radius: 0.3em;
+   background-color: darkgray;
+   line-height : 0.01em;
+}
+
+input[value= '1'],[value= '2'],[value= '3'],
+[value= '4'],[value= '5'],[value= '6'],
+[value= '7'],[value= '8'],[value= '9'],
+[value= '0'],[value= '.']{
+    background-color: lightgrey;
+}
+div{
+    border-radius: 1em;
+    background-color:  #362E2E; 
+    margin: auto;
+    max-width: 32em;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+p{
+    display: block;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+
+
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://localhost/entrega/Ejercicio-7/Ejercicio7.php# -->
+<html lang="es" dir="ltr"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ejercicio 7</title>
+
+<meta name="author" content="Taso Rodríguez Meana">
+<meta name="desciption" content="Control de una base de datos mysql con php"> 
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./Ejercicio7buscar_files/Ejercicio7.css">
+</head>
+<body>
+<h1>Ejercicio 7: Aplicación de gestion de biblioteca  </h1> 
+    <p> La aplicación simula una aplicación de gestion de biblioteca que usuaria un bibliotecario que quiere mantener el registro de los libros y prestamos de una biblioteca  </p>
+
+  
+<form action="http://localhost/entrega/Ejercicio-7/Ejercicio7.php#" method="post" name="menu">
+<nav>
+    <ul>
+        <li><input type="submit" class="button" value="Información" name="informacion"> </li>
+        <li><input type="submit" class="button" value="Crear Base de Datos" name="crearBD"> </li>
+        <li><input type="submit" class="button" value="Reiniciar Base de Datos" name="restart"> </li>
+        <li><input type="submit" class="button" value="Mostrar Usuarios" name="mostrarUsuarios"> </li>
+        <li><input type="submit" class="button" value="Mostrar Libros y Prestamos" name="mostrarLibros"> </li>
+        <li><input type="submit" class="button" value="Realizar Prestamo" name="prestamo"> </li>  
+        <li><input type="submit" class="button" value="Devolver Libro" name="devolver"> </li>      
+        <li><input type="submit" class="button" value="Buscar libros" name="buscar"> </li>
+    </ul>
+</nav>
+</form><form action="http://localhost/entrega/Ejercicio-7/Ejercicio7.php#" method="post" name="formulario"><p>Valor del campo: <input type="text" name="valor" title="valor"> <label for="tipo">Tipo de busqueda:</label>
+                        <select name="tipo" id="tipo">
+                            <option value="CONTIENE">CONTIENE</option>
+                            <option value="COMPLETO">COMPLETO</option>
+                        </select></p><input type="submit" value="Buscar por Titulo" name="TituloBusqueda"><input type="submit" value="Buscar por Autor" name="AutorBusqueda"><input type="submit" value="Buscar por Genero" name="GeneroBusqueda"></form>
+</body></html>
